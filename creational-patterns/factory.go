@@ -5,11 +5,11 @@ import (
 )
 
 /**
-- It is impossible to implement the classic factory method patter in Go due to lack of OOP features
+- It is impossible to implement the classic factory method pattern in Go due to lack of OOP features
 - Can still implement a simple factory
 - iCar -> interface which defines all methods a car should have
 - car struct -> implements the iCar interface
-- two concrete guns -> tesla, ford
+- two concrete cars -> tesla, ford
 - both embed car struct and inrectly implement all iCar methods
 - the carFactory serves as a factory, which creates cars
 - of the desired type based on incoming argument
