@@ -125,5 +125,4 @@ func main() {
 
 	// execute chain of responsibility
 	reception.execute(patient)
-
 }
